@@ -10,7 +10,6 @@ function App() {
   return (
     <>
     <Loginform/>
-      <h1>Hallo</h1>
     </>
   )
 }

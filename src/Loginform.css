@@ -1,5 +1,7 @@
-Loginform{
+.backg{
     background-color: aquamarine;
+    background-blend-mode: overlay;
+    background-color: rgb(255,255,255,10);
 }
 label {
     color :blue;
