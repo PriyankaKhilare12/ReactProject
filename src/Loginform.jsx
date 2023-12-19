@@ -15,7 +15,7 @@ function Loginform() {
         <label for="firstName" className='label' ><b>First Name </b></label><br/>
         <input type='text' className='input-field' name='firstName' id='firstNname' placeholder='Enter your First Name' required/><br/><br/>
 
-        <label for="lastName" className='label'><b>Last Name :</b></label><br/>
+        <label for="lastName" className='label'><b>Last Name </b></label><br/>
         <input type='text' className='input-field' name='lastName' id='lastNname' placeholder='Enter your Last Name' required/><br/><br/>
         
         <label for="emailid" className='label'><b>Email </b></label> <br/>
@@ -45,10 +45,10 @@ function Loginform() {
         <label>Marathi</label><br/><br/>
 
         <label className='label'><b>Password</b></label><br></br>
-        <input type='text' className='input-field'  name='password' id='password' placeholder='12@DH' required></input><br/><br/>
+        <input type='text' className='input-field'  name='password' id='psw' value='' placeholder='12@DH' required></input><br/><br/>
 
         <label className='label'><b>Reapit-Password</b></label><br></br>
-        <input type='text' className='input-field'  name='re-password' id='repsw' placeholder='12@DH' required></input><br/><br/>
+        <input type='text' className='input-field'  name='re-password' id='repsw' value='' placeholder='12@DH' required></input><br/><br/>
 
 
         <button type='submit' className='btn'><b>Submit</b></button><br/><br/>
