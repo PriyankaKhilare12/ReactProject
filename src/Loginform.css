@@ -1,9 +1,60 @@
-.backg{
-    background-color: aquamarine;
+.body{
+    background-image: url('./images/paper.jpg');
+    width: 30rem;
+    border-radius: 2rem;
     background-blend-mode: overlay;
-    background-color: rgb(255,255,255,10);
+    background-color: rgb(255, 255, 255 ,0.3);
+    background-repeat: no-repeat;
+    background-size: cover ;
 }
-label {
-    color :blue;
-    height: 110rem;
+.label {
+    font-size: 1.2rem;
+    font-weight: 3rem; 
 }
+.input-field{
+    width: 15rem;
+    height: 1.5rem;
+    
+}
+
+.btn{
+    border: 0.1rem solid black;
+    font-size: 1.2rem;
+    font-weight: 2rem; 
+    width: 9rem;
+    /* height: 2rem; */
+    padding: 0.2rem;
+    border-radius: 1rem;
+    background-color: lemonchiffon;
+    box-shadow: 0 8px 16px 0 rgba(0,255,255,0.5);
+    /* box-shadow: 0.51rem 0.51rem purple; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
